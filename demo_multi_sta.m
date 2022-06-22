@@ -27,6 +27,7 @@ addpath(genpath(pwd));
 
 %static scenes
 imgSeqColor= loadImg('Chinese_garden_Bartlomiej Okonek'); % [0,1]
+disp(size(imgSeqColor));
 %     imgSeqColor = downSample(imgSeqColor, 1024);
 
 %% the finest scale
