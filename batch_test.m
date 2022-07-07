@@ -3,7 +3,7 @@ close all;
 addpath(genpath(pwd));
 
 tic;
-s='C:/data/MEFB/';
+s='C:/data/SICE/train/';
 %% get flist
 % flist=dir(data_path);
 fileFolder=fullfile([s,'oe']);
